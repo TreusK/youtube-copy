@@ -1,0 +1,176 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Youtube</title>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="topBar">
+	    <div id="lines-logo">
+			<div id="linesMenu" class="pointerPls">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+			<div id="logo" class="pointerPls">
+				<img src="icons/youtube.svg" width="26px" alt="youtube icon">
+				<p>YouTube</p>
+			</div>
+		</div>
+		<div id="search">
+			<input type="text" placeholder="Search">
+			<div id="searchButton" class="pointerPls"><img src="icons/magnify.png" alt=""></div>
+		</div>
+		<div id="options">
+			<div id="Create" class="topOptionsIcon pointerPls"><img src="icons/video-plus.png" alt="createIcon"></div>
+			<div id="Apps" class="topOptionsIcon pointerPls"><img src="icons/apps.png" alt="appsIcon"></div>
+			<div id="Settings" class="topOptionsIcon pointerPls"><img src="icons/dots-vertical.png" alt="settingsIcon"></div>
+			<div id="signIn" class="pointerPls"><img src="icons/account-circle.png" alt="defaultAvatar"><p>SIGN IN</p></div>
+		</div>
+	</div>
+	
+	<main class="flexPls">
+		<div id="content" class="robotoPls">
+			<div id="video">
+				<iframe width="800" height="450" src="https://www.youtube.com/embed/GglMojOIYIo" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<h3 id="videoName">Land Down Under (Magic: The Gathering Parody)</h3>
+			
+			<div id="views-options" class="flexPls greyPls">
+				<h4>25,553 views•Oct 14, 2020</h4>
+				<div id="videoOptions" class="flexPls">
+					<div id="thumbs" class="flexPls pointerPls">
+						<img src="icons/thumb-up.png" alt="" class="videoIconOptions">
+						<p class="greyPls">4.2K</p>
+						<img src="icons/thumb-down.png" alt="" class="videoIconOptions">
+						<p class="greyPls">12</p>
+					</div>
+					<div id="share" class="flexPls pointerPls">
+						<img src="icons/share.png" alt="" class="videoIconOptions">
+						<p class="greyPls">SHARE</p>
+					</div>
+					<div id="save" class="flexPls pointerPls">
+						<img src="icons/playlist-plus.png" alt="" class="videoIconOptions">
+						<p class="greyPls">SAVE</p>
+					</div>
+					<div id="dotOptions" class="flexPls pointerPls">
+						<img src="icons/dots-horizontal.png" alt="" class="videoIconOptions">
+					</div>
+				</div>
+			</div>
+			
+			<div id="info" class="flexPls">
+				<div><img src="icons/uploader.jpg" alt="" id="iconUploader" class="pointerPls"></div>
+				<div id="infoVideo">
+					<p id="uploaderName" class="pointerPls">MTGRemy</p>
+					<p id="subscribers" class="greyPls">18.3K subscribers</p>
+					<div id="allInfo">
+						<p id="takeMe">Remy’s opponent is casting spells from the land down under.</p>
+						<p>Announcing a Patreon! <a id="patreon" href="https://www.patreon.com/mtgremy">https://www.patreon.com/mtgremy</a></p>
+						<h4 class="greyPls pointerPls">SHOW MORE</h4>
+					</div>
+				</div>
+				<div id="redSubscribeButton" class="flexPls pointerPls"><h4>SUBSCRIBE</h4></div>
+			</div>
+			
+			<div id="comments">
+				<div id="comments-sort" class="flexPls">
+					<h2>446 Comments</h2>
+					<img src="icons/sort.png" alt="sortIcon" id="sortIcon" class="videoIconOptions pointerPls">
+					<h3 class="greyPls pointerPls">SORT BY</h3>
+				</div>
+				<div id="addComment" class="flexPls">
+					<img src="icons/avatarDefault.png" alt="myAvatar">
+					<div id="inputDiv">
+						<input type="text" placeholder="Add a public comment...">
+						<div></div>
+					</div>
+				</div>
+				<div id="allComments"></div>
+			</div>
+		</div>
+		
+		
+		<div id="sidebar">
+			<div id="upNext-autoplay" class="flexPls">
+				<h3>Up next</h3>
+				<div class="flexPls">
+					<h4 class="greyPls">AUTOPLAY</h4>
+					<div id="autoplayContainer">
+						<div id="autoplayInside"></div>
+					</div>
+				</div>
+			</div>
+			<div id="thumbnails">
+				<div id="upNext" class="flexPls">
+					<a href="https://www.youtube.com/watch?v=Cjwoit91SxU" class="pointerPls"><img src="icons/next.webp" alt=""></a>
+					<div class="thumbInfo">
+						<p class="thumbVideoName pointerPls">Goldfish - Get Busy Living (OFFICIAL)</p>
+						<p class="thumbVideoInfo greypls pointerPls">GoldFishLive</p>
+						<p class="thumbVideoInfo greyPls pointerPls">5.6M views • 9 years ago</p>
+					</div>				
+				</div>
+				<br>
+				<div class="flexPls">
+					<a href="https://www.youtube.com/watch?v=hXzPxBhhmY8" class="pointerPls"><img src="icons/th1.webp" alt=""></a>
+					<div class="thumbInfo pointerPls">
+						<p class="thumbVideoName">I DONT KNOW HOW BUT THEY FOUND ME - Do It All The Time</p>
+						<p class="thumbVideoInfo greyPls">I DONT KNOW HOW BUT TH..</p>
+						<p class="thumbVideoInfo greyPls">16M views • 2 years ago</p>
+					</div>				
+				</div>
+				<div class="flexPls">
+					<a href="https://www.youtube.com/watch?v=7-tNUur2YoU" class="pointerPls"><img src="icons/th2.webp" alt=""></a>
+					<div class="thumbInfo pointerPls">
+						<p class="thumbVideoName">Goldfish - We Come Together (ft. Sakhile Moleshe)</p>
+						<p class="thumbVideoInfo greyPls">GoldFishLive</p>
+						<p class="thumbVideoInfo greyPls">13M views • 9 years ago</p>
+					</div>				
+				</div>
+				<div class="flexPls">
+					<a href="https://www.youtube.com/watch?v=eBApRi_1DUc" class="pointerPls"><img src="icons/th4.webp" alt=""></a>
+					<div class="thumbInfo pointerPls">
+						<p class="thumbVideoName">Cash Cash - Overtime [ unOFFICIAL Music Video ]</p>
+						<p class="thumbVideoInfo greyPls">Ryan Celsius</p>
+						<p class="thumbVideoInfo greyPls">4.3M views • 6 years ago</p>
+					</div>				
+				</div>
+				<div class="flexPls">
+					<a href="https://www.youtube.com/watch?v=vmi-MtP969M" class="pointerPls"><img src="icons/th5.webp" alt=""></a>
+					<div class="thumbInfo pointerPls">
+						<p class="thumbVideoName">Moby & The Void Pacific Choir - In This Cold Place (Official...</p>
+						<p class="thumbVideoInfo greyPls">Moby</p>
+						<p class="thumbVideoInfo greyPls">8.9M views • 3 years ago</p>
+					</div>				
+				</div>
+				<div class="flexPls">
+					<a href="https://www.youtube.com/watch?v=XMW3giznx-U" class="pointerPls"><img src="icons/th6.webp" alt=""></a>
+					<div class="thumbInfo pointerPls">
+						<p class="thumbVideoName">El hijo de Hernández</p>
+						<p class="thumbVideoInfo greyPls">Cuarteto de Nos</p>
+						<p class="thumbVideoInfo greyPls">19M views • 10 years ago</p>
+					</div>				
+				</div>
+				<div class="flexPls">
+					<a href="https://www.youtube.com/watch?v=wO0A0XcWy88" class="pointerPls"><img src="icons/th7.webp" alt=""></a>
+					<div class="thumbInfo pointerPls">
+						<p class="thumbVideoName">Peter Schilling - Major Tom (Coming Home)</p>
+						<p class="thumbVideoInfo greyPls">Peter Schilling</p>
+						<p class="thumbVideoInfo greyPls">6,309,516 views • Feb 14, 2020</p>
+					</div>				
+				</div>
+				<div class="flexPls">
+					<a href="https://www.youtube.com/watch?v=351Aa5q_S98" class="pointerPls"><img src="icons/th8.webp" alt=""></a>
+					<div class="thumbInfo pointerPls">
+						<p class="thumbVideoName">Well done Slytherin. However.</p>
+						<p class="thumbVideoInfo greyPls">Aleys</p>
+						<p class="thumbVideoInfo greyPls">164,948 views • Jun 17, 2016</p>
+					</div>				
+				</div>
+			</div>
+		</div>
+	</main>
+</body>
+</html>

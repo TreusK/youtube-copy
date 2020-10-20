@@ -1,0 +1,339 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-family: sans-serif;
+	font-size: 90%;
+	background: #181818;
+}
+
+/*Top Bar Styles*/
+#topBar {
+	padding: 0 22px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: fixed;
+	width: 100vw;
+	height: 60px;
+	margin: 0 auto;
+	background: #202020;
+}
+
+#lines-logo {
+	display: flex; 
+	align-items: center;
+}
+
+#linesMenu {
+	width: 30px;
+	height: 25px;
+	margin-top: 5px;
+	padding-right: 20px;
+}
+
+#linesMenu div {
+	background: white;
+	height: 2px;
+	width: 18px;
+	margin: 3px;
+}
+
+#logo {
+	display: flex;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+}
+
+#logo img {
+	margin: 0 3px;
+}
+
+#search {
+	display: flex; 
+	height: 32px;
+}
+
+#search input{
+	padding-left: 10px;
+	border-radius: 2px;
+	width: 40vw;
+	height: 32px;
+	background: black;
+	color: lightgrey;
+	border: 1px #313131 solid;
+}
+
+#search input:focus {
+	outline: none !important;
+	border: 1px #4B95ED solid;
+}
+
+#searchButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 2px;
+	width: 60px;
+	height: 32px;
+	background: #292929;
+}
+
+#searchButton img {
+	height: 18px;
+}
+
+#options {
+	display: flex;
+	width: 300px;
+}
+
+#options div {
+	margin-left: 20px;
+}
+
+.topoptionsIcon {
+	margin-top: 6px;
+}
+
+#signIn {
+	display: flex;
+	width: 100px;
+	height: 35px;
+	color: #4B95ED;
+	border: solid 2px #4B95ED;
+}
+
+#signIn p {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 90%;
+	margin-top: 10px;
+}
+
+#signIn img {
+	height: 26px;
+	margin: 5px 5px 0 5px;
+}
+
+.pointerPls:hover {
+	cursor: pointer;
+}
+
+
+
+/*Main Styles*/
+main {
+	background: #181818;
+}
+
+.robotoPls {
+	font-family: Roboto, Arial, sans-serif;
+}
+
+.greyPls {
+	color: #909090;
+}
+
+.flexPls {
+	display: flex;
+}
+
+#content {
+	padding: 80px 30px 0 50px;
+	height: 1000px;
+}
+
+#views-options {
+	justify-content: space-between;
+	border-bottom: solid 1px #303030;
+}
+
+#views-options h4 {
+	margin: 0;
+}
+
+#videoOptions div{
+	margin-left: 10px;
+}
+
+#videoOptions p {
+	margin-right: 20px;
+	font-size: 85%;
+	font-weight: bold;
+}
+
+.videoIconOptions {
+	margin: 10px 8px 0 0;
+	height: 19px;
+}
+
+#thumbs {
+	border-bottom: 2px solid #909090;
+}
+
+#iconUploader {
+	border-radius: 50%;
+}
+
+#uploaderName, #subscribers {
+	margin: 0;
+}
+
+#allInfo {
+	margin-top: 30px;
+}
+
+#allInfo h4{
+	margin-top: 0;
+}
+
+#info {
+	margin-top: 20px;
+}
+
+#takeMe {
+	margin-bottom: 30px;
+}
+
+#info div {
+	margin-right: 20px;
+}
+
+#patreon {
+	text-decoration: none;
+	color: #4B95ED;
+}
+
+#redSubscribeButton {
+	border-radius: 3px;
+	width: 120px;
+	height: 40px;
+	background: #cc0000;
+	color: white;
+	font-family: sans-serif;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+}
+
+#info {
+	border-bottom: solid 1px #303030;
+}
+
+#comments {
+	margin-top: 20px;
+	font-size: 75%;
+}
+
+#sortIcon {
+	height: 25px;
+}
+
+#comments-sort {
+	margin-bottom: 20px;
+}
+
+#comments-sort h2,
+#comments-sort img,
+#comments-sort h3  {
+	margin-top: 0;
+}
+
+#comments-sort h2 {
+	margin-top: 3px;
+	margin-right: 30px;
+	font-size: 130%;
+}
+
+#comments-sort h3 {
+	margin-top: 3px;
+}
+
+#addComment img {
+	border-radius: 50%;
+}
+
+#inputDiv input {
+	color: white;
+	padding-bottom: 5px;
+	margin-left: 20px;
+	width: 750px;
+	background: #181818;
+	border: none;
+	border-bottom: solid 1px #303030;
+	outline: none !important;
+}
+
+
+/* Sidebar Styles */
+
+#sidebar {
+	padding: 80px 0 0 30px;
+	height: 900px;
+	padding: 80px 50px 0 0;
+}
+
+#autoplayContainer {
+	margin: 20px 0 0 10px;
+	width: 35px;
+	height: 15px;
+	border-radius: 10px;
+	background: #343434;
+}
+
+#autoplayInside {
+	background: #909090;
+	position: relative;
+	bottom: 3px;
+	width: 21px;
+	height: 21px;
+	border-radius: 50%;
+}
+
+#thumbnails div {
+	margin-bottom: 7px;
+}
+
+#upNext-autoplay {
+	justify-content: space-between;
+}
+
+.thumbInfo {
+	padding-left: 10px;
+}
+
+.thumbInfo p {
+	margin: 0 0 5px 0;
+}
+
+#upNext {
+	padding-bottom: 15px;
+	border-bottom: solid 1px #303030;
+}
+
+.thumbVideoInfo {
+	font-size: 90%;
+}
+
+#thumbnails div {
+	height: 94px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
