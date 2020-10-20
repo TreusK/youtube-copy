@@ -1,3 +1,3 @@
 # Youtube-copy
 
-Just another project
+Just another Odin project
